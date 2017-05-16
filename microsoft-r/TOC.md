@@ -11,9 +11,9 @@
 
 # Install and configure
 
-## [Supported platforms](rserver-install-supported-platforms.md)
 
 ## Machine Learning Server
+### [Supported platforms](rserver-install-supported-platforms.md)
 ### [Windows](rserver-install-windows.md)
 #### [Install on Windows](rserver-install-windows.md)
 #### [Offline install](rserver-install-windows-offline.md)
@@ -83,7 +83,7 @@
 ### [Install on Windows](r-client-install-windows.md)
 ### [Install on Linux](r-client-install-linux.md)
 
-## [Python development environment](r-client-get-started.md)
+## [Python development libraries](r-client-get-started.md)
 
 ## [Pretrained models](deploy-pretrained-microsoftml-models.md)
 
