@@ -1,7 +1,7 @@
 # [Overview of Machine Learning Server](index.md)
 ## [What is Machine Learning Server](rserver.md)
 ## [How to use Machine Learning Server](overview-interoperability.md)
-## New in Machine Learning Server
+## New in this release
 ### [What's new in R Server](rserver-whats-new.md)
 ### [What's new in R Client](notes/r-client-notes.md)
 
@@ -76,13 +76,15 @@
 
 # Quickstarts
 ## [Run R code in Microsoft R](quickstart-r-code.md)
-## [Deploy an R model as a web service](operationalize/quickstart-publish-web-service.md)
+## Run R code in parallel
+## Run R code with big data
+## [Publish an R model as a web service](operationalize/quickstart-publish-web-service.md)
 
 # Tutorials
 ## [Explore R-to-ScaleR in 25 functions or less](microsoft-r-getting-started-tutorial.md)
-## Practice data import and exploration
-## Practice data manipulation and statistical analysis
-## Working with larger data sets
+## Explore data import and exploration
+## Explore data manipulation and statistical analysis
+## Work with larger data sets
 ### Airline flight delays
 ### Loan data
 ### Census data 
