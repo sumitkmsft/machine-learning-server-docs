@@ -6,7 +6,10 @@
     tocHref: /r-server/
     topicHref: /r-server/index
     items:
-    - name: Configure
+    - name: Install & configure
+      tocHref: /r-server/install/
+      topicHref: /
+    - name: Operationalize
       tocHref: /r-server/operationalize/
       topicHref: /r-server/operationalize/configure-start-for-administrators
     - name: Python Package Reference
@@ -18,6 +21,9 @@
         topicHref: /r-server/python-reference/microsoftml/microsoftml-package
       - name: revoscalepy
         tocHref: /r-server/python-reference/revoscalepy/
+        topicHref: /r-server/python-reference/revoscalepy/revoscalepy-package
+      - name: azureml-model-management-sdk
+        tocHref: /r-server/python-reference/azureml-model-management-sdk/
         topicHref: /r-server/python-reference/revoscalepy/revoscalepy-package
     - name: R Package Reference
       tocHref: /r-server/r-reference/

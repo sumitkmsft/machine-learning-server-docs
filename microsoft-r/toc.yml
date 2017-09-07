@@ -41,7 +41,7 @@
         href: install/machine-learning-server-hadoop-install.md
         items:
         - name: Cloudera Manager parcel installation
-          href: install/machine-learning-server-install-cloudera.md
+          href: install/machine-learning-server-cloudera-install.md
           items:
           - name: Generate a parcel (OLD)
             href: install/r-server-install-cloudera-generate-parcel.md
@@ -118,7 +118,7 @@
       - name: Azure Linux VM
         href: install/machine-learning-server-azure-vm-on-linux.md
       - name: Azure Windows VM
-        href: https://docs.microsoft.com/en-us/sql/advanced-analytics/r/provision-the-r-server-only-sql-server-2016-enterprise-vm-on-azure
+        href: https://docs.microsoft.com/sql/advanced-analytics/r/provision-the-r-server-only-sql-server-2016-enterprise-vm-on-azure
         maintainContext: true
       - name: Data Science VM
         href: install/r-server-vm-data-science.md
@@ -137,48 +137,50 @@
       href: install/python-libraries-interpreter.md
   - name: R Server 9.1 or earlier
     items:
-    - name: Feature announcements in previous releases
+    - name: Prior feature announcements
       href: whats-new-in-r-server.md
     - name: On Windows
-        items:
-        - name: Install R Server 9.1
-          href: install/r-server-install-windows.md
-        - name: Install R Server 9.1 - Offline
-          href: install/r-server-install-windows-offline.md
-        - name: Install R Server 9.1 - Command line
-          href: install/r-server-install-windows-command-line.md
-        - name: Install R Server 8.1
-          href: install/r-server-install-windows-800.md
+      items:
+      - name: 9.1 - Install
+        href: install/r-server-install-windows.md
+      - name: 9.1 - Offline
+        href: install/r-server-install-windows-offline.md
+      - name: 9.1 - Command line
+        href: install/r-server-install-windows-command-line.md
+      - name: 8.1 - Install
+        href: install/r-server-install-windows-800.md
     - name: On Linux
-        items:
-        - name: Install R Server 9.0.1
-          href: install/r-server-install-linux-server-901.md
-        - name: Install R Server 9.0.1 - Offline
-          href: install/r-server-install-linux-offline.md
-        - name: Uninstall R Server 9.0.1
-          href: install/r-server-install-linux-uninstall.md
-        - name: Install R Server 8.0.5
-          href: install/r-server-install-linux-server-805.md
-        - name: Install R Server 8.0
-          href: install/r-server-install-linux-server-800.md     
+      items:
+      - name: 9.1 - Install
+        href: install/r-server-install-linux-server.md
+      - name: 9.1 - Offline
+        href: install/r-server-install-linux-offline.md
+      - name: 9.1 - Uninstall
+        href: install/r-server-install-linux-uninstall.md
+      - name: 9.0.1 - Install
+        href: install/r-server-install-linux-server-901.md
+      - name: 8.0.5 - Install
+        href: install/r-server-install-linux-server-805.md
+      - name: 8.0 - Install
+        href: install/r-server-install-linux-server-800.md     
     - name: On Hadoop
-        items:
-        - name: Install R Server 9.1 
-          href: install/r-server-install-hadoop.md
-        - name: Install R Server 9.1 - Command line
-          href: install/r-server-install-hadoop-command-line.md
-        - name: Install R Server 9.1 - Offline 
-          href: install/r-server-install-hadoop-offline.md
-        - name: Install R Server 9.1 - Cloudera
-          href: install/r-server-install-cloudera.md
-        - name: Uninstall R Server 9.1
-          href: install/r-server-install-uninstall-upgrade.md
-        - name: Install R Server 9.0.1
-          href: install/r-server-install-hadoop-901.md
-        - name: Install R Server 9.0.1 on CDH
-          href: install/r-server-install-cloudera-901.md
-        - name: Install R Server 8.0.5
-          href: install/r-server-install-hadoop-805.md
+      items:
+      - name: 9.1 - Install
+        href: install/r-server-install-hadoop.md
+      - name: 9.1 - Commandline
+        href: install/r-server-install-hadoop-command-line.md
+      - name: 9.1 - Offline 
+        href: install/r-server-install-hadoop-offline.md
+      - name: I9.1 - Cloudera
+        href: install/r-server-install-cloudera.md
+      - name: 9.1 - Uninstall
+        href: install/r-server-install-uninstall-upgrade.md
+      - name: 9.0.1 - Install
+        href: install/r-server-install-hadoop-901.md
+      - name: 9.0.1 - Cloudera
+        href: install/r-server-install-cloudera-901.md
+      - name: 8.0.5 - Install
+        href: install/r-server-install-hadoop-805.md
     - name: On Teradata
       items:
       - name: Install R Server 9.0.1 on a Teradata Server
@@ -187,7 +189,7 @@
         href: install/r-server-install-teradata-805.md
       - name: Install R Server on a Teradata Client
         href: install/r-server-install-teradata-client.md
-      - name: 'Get started: ScaleR on Teradata'
+      - name: Get started ScaleR on Teradata
         href: r/how-to-revoscaler-teradata.md
 - name: Quickstarts
   items:
@@ -588,7 +590,7 @@
       - name: rx_predict
         href: python-reference/revoscalepy/rx-predict.md
       - name: rx_predict_default
-        href: rx-predict-default.md
+        href: python-reference/revoscalepy/rx-predict-default.md
       - name: rx_predict_rx_dtree
         href: python-reference/revoscalepy/rx-predict-rx-dtree.md
       - name: rx_predict_rx_dforest
