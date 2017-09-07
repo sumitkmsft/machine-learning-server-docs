@@ -1,96 +1,106 @@
 ---
 
 # required metadata
-title: "Microsoft R Server and R Client Getting Started Guide"
-description: "Microsoft R features and components overview."
+title: "What is Microsoft R Server and R Client"
+description: "Learn about Microsoft R features and components in R Server, R Client, R Open."
 keywords: ""
 author: "j-martens"
+ms.author: "jmartens"
 manager: "jhubbard"
-ms.date: "06/13/2016"
-ms.topic: "article"
+ms.date: "06/22/2017"
+ms.topic: "get-started-article"
 ms.prod: "microsoft-r"
-ms.service: ""
-ms.assetid: ""
 
 # optional metadata
-ROBOTS: ""
-audience: ""
-ms.devlang: ""
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+#ROBOTS: ""
+#audience: ""
+#ms.devlang: ""
+#ms.reviewer: ""
+#ms.suite: ""
+#ms.tgt_pltfrm: ""
 ms.technology:
   - r-client
   - r-server
-ms.custom: ""
+#ms.custom: ""
 
 ---
 
-#Microsoft R
+# Microsoft R
 
-R is the world’s most powerful, and preferred, programming language for statistical computing, machine learning, and graphics, and is supported by a thriving global community of users, developers, and contributors. Developers frequently provide tools incorporating their expertise in the form of R packages. Traditionally, using R in an enterprise setting has presented certain challenges, especially as the volume of data rises, or when faced with a need to deploy solutions to production environments.
+Microsoft R is a collection of packages, interpreters, and infrastructure for developing and deploying R-based machine learning and data science solutions on a range of platforms, from local standalone installations on Linux and Windows, to large distributed deployments on node clusters. We make these capabilities available in several products and services to meet the needs of individual or teams of data scientists and developers.
 
-The Microsoft R product family includes:
-+ <a href="#mrs">Microsoft R Server</a>
-+ <a href="#mrc">Microsoft R Client</a>
-+ <a href="#mro">Microsoft R Open</a>
-+ <a href="#sqlr">SQL Server R Services</a>
++ [Microsoft R Server](what-is-microsoft-r-server.md) is the flagship product and supports very large workloads in the enterprise. 
 
-For a side-by-side comparison of Microsoft R Server, Microsoft R Client, and Microsoft R Open, [see here](microsoft-r-getting-started.md#compare-prods).
-<br>
++ [Microsoft R Client](r-client/what-is-microsoft-r-client.md) is a free workstation version. It includes the same R Server functionality, but for local workloads.
 
-<a name="mrs"></a>
-##Microsoft R Server
++ [Microsoft R Open](https://mran.microsoft.com/open/) is Microsoft's distribution of open source R, without the proprietary packages and infrastructure of our other products. This R distribution is included in both Microsoft R Client and R Server. 
 
-Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. Supporting a variety of big data statistics, predictive modeling and machine learning capabilities, R Server supports the full range of analytics – exploration, analysis, visualization and modeling based on open source R.
+## Quickstarts and Step-by-Step
 
-By using and extending open source R, Microsoft R Server is fully compatible with R scripts, functions and CRAN packages, to analyze data at enterprise scale. We also address the in-memory limitations of open source R by adding parallel and chunked processing of data in Microsoft R Server, enabling users to run analytics on data much bigger than what fits in main memory. And since R Server is built on top of Microsoft R Open, you can use any open source R packages to build your analytics.
+In minutes, you can step through a classic what-if problem using sample data and R script in the first quickstart. Additional step-by-step tutorials offer a hands-on experience performing practical data science tasks.
 
-Microsoft R Server delivers enterprise class performance and scalability for your R-based applications with libraries that allow you to write once and deploy across multiple platforms with minimal effort, whether on-premises or in the cloud.
+* [Quickstart: Run R code in Microsoft R](r/quickstart-run-r-code.md) 
 
-Get started by reading this [Getting Started](microsoft-r-getting-started.md) guide.
+* [Quickstart: Deploy R code as a web service](operationalize/quickstart-publish-r-web-service.md) 
 
+* [Tutorial: Explore R-to-RevoScaleR](r/tutorial-r-to-revoscaler.md) 
 
-<br />
-<a name="mrc"></a>
-##Microsoft R Client
+* [Tutorial: Import and transform data](r/tutorial-revoscaler-data-import-transform.md)  
 
-[!include[Microsoft R Client](./includes/r-client/r-client-intro.md)]
+* [Tutorial: Visualize and analyze data](r/tutorial-revoscaler-data-model-analysis.md) 
 
-Learn how to [install and get started with Microsoft R Client](r-client-get-started.md).
+## Pre-built solutions
 
-<br>
-<a name="mro"></a>
-##Microsoft R Open
+We offer solutions tailored to specific industries and problem sets, such as:
++ Predicting Length of Stay in Hospitals
 
-[!include[Microsoft R Open](./includes/r-open/mro-intro.md)]
++ Campaign Optimization with SQL Server
 
-<br>
-<a name="sqlr"></a>
-##SQL Server R Services
++ Campaign Optimization with Azure HDInsight Spark Clusters
 
-[!include[SQL Server R Services](./includes/ss-r-services/r-services-intro.md)]
++ Loan Credit Risk with SQL Server
 
-Learn more about [SQL Server R Services](https://msdn.microsoft.com/en-us/library/mt604845.aspx) on the SQL Server documentation site on MSDN.
+Explore machine learning how-to solutions at https://aka.ms/rsolutiontemplates.
 
+## Embedded R Server
 
-<br>
-##Learn More
+Additionally, you can use embedded Microsoft R packages, interpreters, and libraries in Azure data science virtual machines, in Azure HDInsight (Microsoft's distribution of Hadoop), and as an in-database service in SQL Server.
 
-Start learning about Microsoft R today:
+* [Azure: HDInsight and R Server](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-r-server-get-started) 
+
+* [Azure: Data Science virtual machine](https://docs.microsoft.com/azure/machine-learning/machine-learning-data-science-virtual-machine-overview)
+
+* [SQL Server Machine Learning Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services)
+
+## Start with a local installation
+
+If you are new to Microsoft R, we recommend starting with either [R Server for Windows](install/r-server-install-windows.md), [R Server for Linux](install/r-server-install-linux-server.md), or the free [R Client](r-client-install.md), and an integrated development environment like [R Tools for Visual Studio (RTVS)](https://docs.microsoft.com/visualstudio/rtvs/installation). 
+
+You can install these configurations for free. Each one gives you Microsoft R Open with full support of all base R functions so that you can write R-only solutions, but also includes Microsoft R proprietary packages that run locally on your development computer.
+
+Since the R engine lies underneath, you can use the R Core Team manuals that are part of every R distribution to learn how to code in R. Built-in manuals include *An Introduction to R*, *The R Language Definition*, *Writing R Extensions* and more. Beyond the standard R manuals, there are many other resources. [Learn about them here](resources-more.md).
+
+However, because you have R Client or R Server, your script can also include functions shipped only with Microsoft R products, including the [MicrosoftML](r-reference/microsoftml/microsoftml-package.md), [olapR](r-reference/olapr/olapr.md), [mrsdeploy](r-reference/mrsdeploy/mrsdeploy-package.md), and [RevoScaleR](r-reference/revoscaler/revoscaler.md) packages. All of these packages are available in both R Client and R Server, but at different levels of capacity.
+
+## Next steps
+
+Learn more about Microsoft R in these articles:
+
++ [Operationalizing R code with R Server](what-is-operationalization.md)
+
++ [What's new in R Server](whats-new-in-r-server.md)
+
++ [What's new in R Client](whats-new-in-r-server.md)
 
 + [Microsoft R Product Web Page](https://www.microsoft.com/en-us/cloud-platform/r-server)
 
-+ [Supported platforms in Microsoft R Server](rserver-install-supported-platforms.md)
-
-+ [Microsoft R Getting Started](microsoft-r-getting-started.md)
++ [Supported platforms in Microsoft R Server](install/r-server-install-supported-platforms.md)
 
 + [Microsoft R Client Get Started](r-client-get-started.md)
 
 + [Microsoft R Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=microsoftr)
 
-+ [SQL Server R Services](https://msdn.microsoft.com/en-us/library/mt604845.aspx)
++ [SQL Server Machine Learning Services](https://msdn.microsoft.com/en-us/library/mt604845.aspx)
 
-+ [Additional Resources](microsoft-r-more-resources.md)
++ [Additional Resources](resources-more.md)
 
-+ [Documentation Archives](microsoft-r-old-versions.md)
