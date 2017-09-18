@@ -1,12 +1,12 @@
 ---
 
 # required metadata
-title: "Python samples for MicrosoftML"
+title: "Python samples for MicrosoftML (Machine Learning Server) | Microsoft Docs"
 keywords: ""
 author: "bradsev"
 ms.author: "bradsev"
 manager: "cgronlun"
-ms.date: "09/22/2017"
+ms.date: "09/25/2017"
 ms.topic: "get-started-article"
 ms.prod: "microsoft-r"
 
@@ -26,7 +26,7 @@ ms.technology: "r-server"
 
 MicrosoftML samples that use the Python language are described and linked here to help you get started quickly with Microsoft Machine Learning Server. The sentiment analysis and image featurization quickstarts both use pre-trained models. 
 
-Pre-trained models are installed through setup as an optional component of the **Machine Learning Server** or **SQL Server Machine Learning**. To install them, you must check the **ML Models** checkbox on the **Configure the installation** page. For details, see [How to install and deploy pre-trained machine learning models with MicrosoftML](../install/microsoftml-install-pre-trained-models.md).
+Pre-trained models are installed through setup as an optional component of the **Machine Learning Server** or **SQL Server Machine Learning**. To install them, you must check the **ML Models** checkbox on the **Configure the installation** page. For more information on pre-trained models, see [Pre-trained machine learning models for sentiment analysis and image detection](../install/microsoftml-install-pre-trained-models.md).
 
 ## Sentiment analysis
 
@@ -45,4 +45,3 @@ Image featurization is the process that takes an image as input and produces a n
 For some additional discussion on MicrosoftML support of pre-trained deep neural network models for image featurization, see [Image featurization with a pre-trained deep neural network model](https://blogs.msdn.microsoft.com/rserver/2017/04/12/image-featurization-with-a-pre-trained-deep-neural-network-model/).
 
 ##
-More samples here - TBD.
