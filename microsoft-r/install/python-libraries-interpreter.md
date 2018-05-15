@@ -35,7 +35,7 @@ You can install a Python interpreter along with these custom packages locally on
 
 + Benefit from the best-of-breed machine learning algorithms without any server connection. These algorithms have been battle-tested by Microsoft.
  
-+ Push large dataset computations to Machine Learning Server using the compute context functions in the revoscalepy package. By pushing computations onto the server, you can benefit from the disk scalability and performance of Machine Learning Server on any supported platforms. 
++ Push large dataset computations to Machine Learning Server using the compute context functions in the revoscalepy package. By pushing computations onto the server, you can benefit from the disk scalability and performance of Machine Learning Server on any supported platforms. Remote compute context is supported for [SQL Server Machine Learning Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services) or a [Spark cluster](../install/machine-learning-server-hadoop-install.md).
  
 This article describes how to install a Python interpreter (Anaconda) and custom packages locally on a client Windows computer.
 
